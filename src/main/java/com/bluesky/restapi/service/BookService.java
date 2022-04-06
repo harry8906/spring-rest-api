@@ -18,4 +18,6 @@ public interface BookService {
     Book addBook(Book book);
 
     void delete(Integer id);
+
+    void delete(Book book);
 }
